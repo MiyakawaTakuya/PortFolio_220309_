@@ -89,10 +89,6 @@ img{
 
 #menu h2,
 #access h2{
-    -ms-writing-mode: tb-rl;
-    -webkit-writing-mode: vertical-rl;
-    writing-mode: vertical-rl;    
-    text-orientation: upright;
     letter-spacing:0.2em;
     font-size:2rem;
     margin:100px 0;
@@ -232,6 +228,13 @@ img{
     align-items: center;
 }
 
+#main-nav h3{
+    font-size:1.1rem;
+    letter-spacing: 0.4em;
+    margin-right: 0.6em;
+    font-family: 'Noto Serif JP', serif;
+}
+
 #g-nav ul{
     display: flex;
 }
@@ -362,12 +365,13 @@ img{
 #lead .lead-area{
     display: flex;
     flex-direction: row-reverse;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 
 #lead .svganimeblock{
-    width:50%;
+    /* width:50%; */
+    width:74%;
     position: absolute;
     top:50%;
     left:50%;
@@ -376,7 +380,8 @@ img{
 }
 
 #lead .lead-heading{
-    width:30%;
+    /* width:40%; */
+    width:100%;
 }
 
 #lead h2{
@@ -384,9 +389,9 @@ img{
     letter-spacing: 0.1em;
     line-height: 2.2;
     padding: 0 0 0 30px;
-    -ms-writing-mode: tb-rl;
+    /* -ms-writing-mode: tb-rl;
     -webkit-writing-mode: vertical-rl;
-    writing-mode: vertical-rl;    
+    writing-mode: vertical-rl;     */
 }
 
 #lead .lead-desc{
@@ -397,13 +402,14 @@ img{
 }
 
 #lead .lead-desc p{
-    width:12em;
+    /* width:12em; */
+    width:42em;
     letter-spacing: 0.1em;
     line-height: 3;
     margin: 0 0 0 30px;
-    -ms-writing-mode: tb-rl;
+    /* -ms-writing-mode: tb-rl;
     -webkit-writing-mode: vertical-rl;
-    writing-mode: vertical-rl;    
+    writing-mode: vertical-rl;     */
 }
 
 #lead .btnarrow5{
@@ -537,10 +543,11 @@ _:-ms-lang(x), #lead .btnarrow5::after{
     display:flex;
     justify-content:center;
     align-items:center;
-    -ms-writing-mode: tb-rl;
-    -webkit-writing-mode: vertical-rl;
+        /* 縦書きの項目 */
+    /* -ms-writing-mode: tb-rl; */
+    /* -webkit-writing-mode: vertical-rl;
     writing-mode: vertical-rl;    
-    text-orientation: upright;
+    text-orientation: upright; */
 }
 
 #menu section:nth-of-type(1) .menu-img-detail{
@@ -734,7 +741,7 @@ _:-ms-lang(x), #lead .btnarrow5::after{
 }
 
 #footer .footer-logo span{
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     display: block;
 }
 
