@@ -145,7 +145,10 @@ body.appear #container{
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background:#15255a;
+    /* background:#15255a; */
+	background:linear-gradient(80deg, #06293a,#15255a,#033b4b);
+	background-size: 150% 100%;/*サイズを大きくひきのばす*/
+	animation: bggradient 10s ease infinite;
     /*丸のスタート位置と形状*/
 	transform: scale(0);/*scaleをはじめは0に*/
 	/* bottom:-50px; */
